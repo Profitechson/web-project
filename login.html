@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dandera</title>
+    <link rel="stylesheet" href="login.css"/>
+</head>
+<body>
+    <header class="header1">
+        <div class="logoandtext">
+            <img src="img/logo.png" alt="" class="logo1">
+            <a href="project.html"><h1 class="text">DANDERA</h1></a>
+        </div>
+        <div class="searchbar">
+            <img src="img/magnifer.png" alt="" class="jpg">
+            <input type="search" class="search" placeholder="Search for Products and Categories">
+        </div>
+        <div class="options">
+            <select name="Select">Select
+            <option value="">international</option>
+            <option value="domestic">domestic</option>
+            </select>
+        </div>
+        <div class="cartandlogo">
+            <a href="cart.html"><h1 class="cart">Cart</h1></a>
+            <a href="cart.html"><img src="img/cartlogo.png" alt="" class="shoppingcart"></a>
+        </div>
+        <div>
+            <button class="login">Login<a href="login.html"></a></button>
+            <button class="sign-up">SignUp</button>
+        </div>
+    </header>
+    <hr>
+    <header class="header2">
+        <nav class="nav-container">
+            <ul>
+                <li><a href="project.html">Home</a></li>
+                <li><a href="">Sell on SeguraMart</a></li>
+                <li><a href="">All Categories</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="">Support</a></li>
+                <li><a href="">Track Order</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="login_form">
+        <form name="f1" method="post" action="login.php" id="f1">
+            <fieldset>
+                <legend>Login</legend>
+                <label for="username">User Name:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <input type="submit" name="login" value="Log In">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
